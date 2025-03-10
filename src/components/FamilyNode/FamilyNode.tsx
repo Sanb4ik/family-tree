@@ -69,8 +69,8 @@ export const FamilyNode = React.memo(function FamilyNode({
           <p
             style={{
               marginTop: "2px",
-              lineHeight: "1px",
-              fontSize: "1px",
+              lineHeight: "10px",
+              fontSize: "10px",
               paddingLeft: "2px",
             }}
           >
