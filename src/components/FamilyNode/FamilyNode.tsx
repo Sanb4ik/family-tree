@@ -31,7 +31,6 @@ export const FamilyNode = React.memo(function FamilyNode({
       ? "https://i.pinimg.com/736x/50/bf/c5/50bfc548ce376ad2eaca06fc2448ec9b.jpg"
       : "https://i.pinimg.com/736x/1b/2e/31/1b2e314e767a957a44ed8f992c6d9098.jpg";
 
-  console.log(node.avatarUrl); //node.avatarUrl
   return (
     <div className={css.root} style={style}>
       <div
