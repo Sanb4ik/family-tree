@@ -1,0 +1,33 @@
+{
+  "name": "react-family-tree-example",
+  "version": "3.2.0",
+  "dependencies": {
+    "ajv": "^8.17.1",
+    "ajv-keywords": "^5.1.0",
+    "classnames": "2.3.2",
+    "pinch-zoom-pan": "4.0.2",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-family-tree": "3.2.0",
+    "typescript": "4.9.5"
+  },
+  "devDependencies": {
+    "@types/classnames": "2.3.1",
+    "@types/react": "18.2.34",
+    "@types/react-dom": "18.2.14",
+    "react-scripts": "5.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    "Chrome 116",
+    "Safari 16"
+  ]
+}
