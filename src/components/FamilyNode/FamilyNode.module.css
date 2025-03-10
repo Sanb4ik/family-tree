@@ -32,6 +32,10 @@
   border-color: rgba(0, 0, 0, 0.8);
 }
 
+.isSelected {
+  border-color: rgb(116, 197, 119);
+}
+
 .id {
   font-size: 7px;
   line-height: 1;
